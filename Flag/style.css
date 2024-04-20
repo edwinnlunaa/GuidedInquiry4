@@ -1,0 +1,57 @@
+* {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font: 400px times new roman;
+    margin: 100px auto;
+    padding: 0 0 100px;
+    position: relative;
+    width: 800px;
+}
+
+#flag {
+    background-color: #fff;
+    height: 1100px;
+    position: relative;
+    width: 800px;;
+}
+
+img {
+    height: 0.54em;
+    position: absolute;
+        top: 0;
+        left: 0;
+    width: 0.76em;
+}
+
+div.row {
+    clear: left;
+    position: relative;
+
+}
+
+div.row:first-child {
+    top: 0;
+    left: 0;
+}
+
+div.row:nth-child(odd) {
+    left: 0;
+}
+
+#stripes div.stripe {
+    background-color: #fff;
+    height: 0.0769em;
+}
+
+#stripes div.stripe:nth-child(odd) {
+    background-color: #cc0018;
+}
+
+#stripes div.stripe:nth-child(8) {
+    position: relative;
+    z-index: 99;
+}

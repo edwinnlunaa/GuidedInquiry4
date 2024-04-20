@@ -1,0 +1,26 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.checkerboard {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid;
+}
+
+.row {
+    display: flex;
+}
+
+.square {
+    width: 100px;
+    height: 100px;
+}
+
+.black {
+    background-color: #000;
+}
